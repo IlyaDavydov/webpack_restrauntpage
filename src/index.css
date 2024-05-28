@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'restrauntFont';
+    src: url('./assets/restraunt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'infoFont';
+    src: url('./assets/info.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/foodmap.jpeg') fixed; 
+    background-size: cover; 
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 32px;
+    font-family: "restrauntFont", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header * {
+    margin: 0;  
+    padding: 0; 
+}
+
+nav button {
+    margin-right: 20px;
+    outline: none;
+    border: 2px solid white;
+    font-size: 32px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: inherit;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "infoFont", sans-serif;
+}
+
+nav button:hover {
+    animation: vibration 0.5s;
+}
+
+@keyframes vibration {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.75);
+    flex: 1;
+    font-family: "infoFont", sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+}
