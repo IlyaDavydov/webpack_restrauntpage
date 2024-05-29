@@ -1,0 +1,13 @@
+From a content and functionality standpoint, this project is rather straightforward. However, it holds significance because its main goal was to delve into webpack and JavaScript module systems. Through this project, I've acquired the following skills:
+
+1. Webpack:
+Learned how to bundle projects
+Familiarized myself with basic concepts and commands in the webpack.config.js file
+Utilized HtmlWebpackPlugin for generating HTML files
+Employed loaders to handle images, fonts, and styles
+Configured DevServer for automatic project rebuilds on changes
+Mastered deployment to GitHub Pages
+Gained understanding of basic concepts and commands in the package.json file
+
+2.JavaScript Modules:
+Experimented with a new approach to dynamically changing content on the page when switching between tabs using import and export functions from different files. Each tab represents a separate page.
