@@ -1,0 +1,77 @@
+#galerypage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    color: white
+}
+
+#gridGalery {
+    display: grid;
+    width: 35vw;
+    height: 35vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2vw;
+    margin-top: 20px;
+}
+
+#gridGalery * {
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#p1 {
+    background: url('./assets/italy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p2 {
+    background: url('./assets/ingermanland.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p3 {
+    background: url('./assets/georgia.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p4 {
+    background: url('./assets/germany.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p5 {
+    background: url('./assets/restraunt.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p6 {
+    background: url('./assets/france.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p7 {
+    background: url('./assets/china.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p8 {
+    background: url('./assets/india.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#p9 {
+    background: url('./assets/uzbekistan.jpg');
+    background-size: cover;
+    background-position: center;
+}

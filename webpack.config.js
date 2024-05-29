@@ -41,7 +41,7 @@ module: {
 },
 devtool: 'source-map',
 devServer: { 
-  port: 8000, 
+  port: 1000, 
   open: true 
 }
 };
